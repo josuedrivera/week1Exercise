@@ -1,0 +1,101 @@
+/* Cascading StyleSheets */
+/* CSS selector */
+body {
+	background-color: #ffd1dc;
+}
+/*styling nav bar ul element*/
+ul {
+	background-color: #2b90d9;
+	padding: 20px 40px;
+	margin: 40px;
+	border: 5px solid #ffa6c9;
+}
+/*buttons for links*/
+li {
+	background-color: #b57281;
+	display: inline-block;
+	padding: 10px 50px;
+	margin: auto 10px;
+	border: 3px solid #ffa6c9;
+}
+li:hover {
+	color: #ffa6c9;
+	background-color: azure;
+}
+a:hover {
+	color: #ffa6c9;
+}
+.box {
+	display: inline-block;
+	width: 40%;
+}
+img {
+	width: 60%;
+	padding: 20px 40px;
+	margin: 30px;
+	border: 2px solid #282c37;
+	height: 200px;
+	object-fit: contain;
+	background-color: white;
+}
+.html {
+	background-color: #ffff99;
+	border: 5px solid #ffa6c9;
+}
+.css {
+	background-color: #ffff99;
+	background: linear-gradient(to left, #ffff99, #ffd800, #ecd540);
+	border: 5px solid #ffa6c9;
+}
+body {
+	text-align: center;
+}
+.circle {
+  height: 100px;
+  width: 100px;
+  background-color: #ecd540;
+  border-radius: 50%;
+  margin: 30px auto;
+}
+.test {
+	background-color: #75D701;
+	height: 100px;
+	color: #F8F8FF;
+	text-transform: uppercase;
+	font-size: 50px;
+}
+a {
+	color: #ffa6c9;
+	font-size: 2em;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+
+}
+.test, #grad1 {
+    height: auto;
+    background: #00ffcc; /* For browsers that do not support gradients */
+    background: linear-gradient(to right, #00ffff, #00ff99, #00ff66, #00ff33); /* Standard syntax (must be last) */
+}
+#grad2 {
+    height: auto;
+    background: #ffff99;
+    background: linear-gradient(to right, #ffff99, #ffd800, #ecd540); 
+}
+/*adding gradient to element with class of css instead, and it worked*/
+/*#grad3 {
+    height: auto;
+    background: #00ffcc; 
+    background: linear-gradient(to right, #00ffff, #00ff99, #00ff66, #00ff33); 
+}*/
+
+
+/*I know the code could be cleaner and more efficient but this is me experimenting*/
+
+
+
+
+
+
+
+
